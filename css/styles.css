@@ -1,0 +1,51 @@
+body {
+    /* padding-top: 84px; */
+}
+.navbar {
+    color: #6e7071;
+    top: 0;
+    z-index: 1051;
+}
+
+.navbar .left-nav .navbar-brand {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 2rem;
+    font-weight: 700;
+    color: inherit;
+    letter-spacing: .1rem;
+}
+
+.nav a,
+.post a {
+    color: rgb(46, 46, 46) !important;
+}
+.nav a.active {
+    background-color: rgb(46, 46, 46) !important;
+    color: white !important;
+}
+
+.post-grid-vew .row div {
+    padding: 0 .1rem !important;
+}
+
+img.post-img,
+img.post-full,
+video {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+    object-position: center center;
+}
+
+img.post-full,
+video.post-full {
+    height: 30rem;
+}
+
+.post-container {
+    background-color: #e2e2e2;
+}
+
+span.liked {
+    font-weight: 600;
+}
