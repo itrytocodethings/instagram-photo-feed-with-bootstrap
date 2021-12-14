@@ -16,13 +16,20 @@ body {
 }
 
 .nav a,
-.post a {
+.post a,
+.nav-link {
     color: rgb(46, 46, 46) !important;
 }
-.nav a.active {
+
+.nav a.active,
+.nav-link.active {
     background-color: rgb(46, 46, 46) !important;
     color: white !important;
 }
+
+/* .nav.nav-view button {
+    color: black !important;
+} */
 
 .post-grid-vew .row div {
     padding: 0 .1rem !important;
