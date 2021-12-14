@@ -38,9 +38,9 @@ body {
 img.post-img,
 img.post-full,
 video {
-    height: 250px;
-    object-fit: cover;
+    height: 350px;
     width: 100%;
+    object-fit: cover;
     object-position: center center;
 }
 
